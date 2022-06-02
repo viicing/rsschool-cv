@@ -52,3 +52,10 @@ Previosly studied Software Engeneering at University, now I'm working as QA engi
 * CV на markdown - https://v11ctoria.github.io/rsschool-cv/cv
 * Mini java project - https://github.com/V11ctoria/demons
 * HTML - https://github.com/V11ctoria/html
+
+### Education:
+* Chelyabinsk State University -
+Unfinished higher education, Software engineering
+
+### Courses
+* RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)

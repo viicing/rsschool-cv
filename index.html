@@ -1,1 +1,105 @@
-html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victoria Antipova - Junior Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    </head>
+    <body>
+        <header>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    </ul>
+            </nav>
+        </header>
+   
+        <main>
+            <img height="300px" width="300px" src="assets\6QA0LBRYvPB-Hv8YteBBZpQOD4u5IhWIY1cRm3qF9ZjvUwYy66EY1hStrBnnXpX6nsjZxklcFKsFxdUg43T584kZ.jpg" alt="my photo" class="round">
+            <h1>Victoria Antipova</h1>            
+            
+            <h2>Junior Frontend Developer</h2> 
+            <hr color="goldenrod" align="center" width="90%">
+            <h3>Contact Information </h3> 
+            <ul>
+                <li>+79911474788</li> 
+                <li>Email: victoria.rainhard@gmail.com</li>
+                <li>Telegram: @viicing</li>
+                </ul>
+            <hr color="goldenrod" align="center" width="97%">
+            <h3>About Myself:</h3> 
+            <p>Previosly studied Software Engeneering at University, now I'm working as QA engineer. Would like to keep self-develoment as a frontend developer.</p>
+ 
+            <h3>Skills and Proficiency:</h3>
+            <ul>
+                <li>HTML5, CSS3</li>
+                <li>JavaScript Basics</li>
+                <li>Git, GitHub</li>
+                <li>VS Code</li>
+            </ul>
+            <h3>Code example:</h3>
+            <pre><code class="code-example">
+        const name = prompt('What's your name?')
+        document.querySelector('h3').textContent = 'Hi, ' + name
+        document.querySelector('h1').textContent = 'Now it's ' + new Date().toLocaleTimeString()
+        setInterval(function() {
+            document.querySelector('h1').textContent = 'Now it's ' + new Date().toLocaleTimeString()
+        }, 1000)
+        const colors = ['indigo', 'green', 'darkred', 'coral', 'orange']
+        let index = 0
+        document.querySelector('button').onclick = function() {
+            document.body.style.background = colors[index]
+            index++
+            if (index >= colors.length) index = 0
+        }
+            </code></pre>
+            <h3>Work experience:</h3>
+            <ul>
+                <li>QA Engineer at "SubSchool" - Feb 2021 - Present</li>
+                <li>Social Media Designer and translator - Oct 2020 - Feb 2021</li>
+                <li>QA Manager - "Direct Star" - May 2018 - Oct 2020</li>
+                <li>Customer Service Specialist - Euroset-Retail LLC - Dec 2017 - Mar 2018</li>
+                </ul>
+            <h3>Projects:</h3>
+            <ul>
+                <li>CV на markdown - https://v11ctoria.github.io/rsschool-cv/cv</li>
+                <li>Mini java project - https://github.com/V11ctoria/demons</li>
+                <li>HTML - https://github.com/V11ctoria/html</li>
+                </ul>
+            <h3>Education:</h3>
+            <ul>
+                <li>Chelyabinsk State University</li>
+                Unfinished higher education, Software engineering
+                </ul>
+            <h3>Courses</h3>
+            <ul>
+                <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                </ul>
+            <h3>Languages:</h3>
+            <ul>
+                <li>English - Advanced</li>
+                <li>Russian - Native</li>
+                <li>German - Beginner</li>
+                </ul>
+
+    </main>
+
+    <footer class="links-list">
+        <!--ссылка на гитхаб, год создания приложения, логотип курса со ссылкой на курс-->
+        <div>
+            <ul>
+            <li><em>2022</em></li>
+            <li><a href="https://github.com/V11ctoria" class="links-github">GitHub</a></li>
+            <li><a href="https://rs.school/js/" class="contact-links-rsschool" target="_blank">
+                <img src="/assets/rs-logo.svg" alt="rsschool logo" class="rsschool" width="80" height="29" viewBox="0 0 80 29" fill="none">
+              </a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

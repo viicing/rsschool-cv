@@ -173,4 +173,24 @@ code:hover {
 
 .bottom__links_rsschool {
     width: 100px;
+    border-radius: 10px;
+    padding: 10px 25px;
+}
+
+.bottom__links_rsschool:hover {
+    border-radius: 10px;
+    box-shadow: 0 0 3px #671AE4;
+    margin: 0 25px;
+}
+
+.bottom__links_github {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bottom__links_github:hover {
+    background: linear-gradient(214.02deg, #984D38 6.04%, #671AE4 92.95%);
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 10px 25px;
 }

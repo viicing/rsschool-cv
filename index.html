@@ -121,19 +121,19 @@
                         <h3 class="main__title">Code example</h3>
                         <div class="main__desc">
                             <pre><code class="main__code">
-                                const name = prompt('What's your name?')
-                                document.querySelector('h3').textContent = 'Hi, ' + name
-                                document.querySelector('h1').textContent = 'Now it's ' + new Date().toLocaleTimeString()
-                                setInterval(function() {
-                                    document.querySelector('h1').textContent = 'Now it's ' + new Date().toLocaleTimeString()
-                                }, 1000)
-                                const colors = ['indigo', 'green', 'darkred', 'coral', 'orange']
-                                let index = 0
-                                document.querySelector('button').onclick = function() {
-                                    document.body.style.background = colors[index]
-                                    index++
-                                    if (index >= colors.length) index = 0
-                                }
+        const name = prompt('What's your name?')
+        document.querySelector('h3').textContent = 'Hi, ' + name
+        document.querySelector('h1').textContent = 'Now it's ' + new Date().toLocaleTimeString()
+        setInterval(function() {
+            document.querySelector('h1').textContent = 'Now it's ' + new Date().toLocaleTimeString()
+            }, 1000)
+        const colors = ['indigo', 'green', 'darkred', 'coral', 'orange']
+        let index = 0
+        document.querySelector('button').onclick = function() {
+            document.body.style.background = colors[index]
+            index++
+            if (index >= colors.length) index = 0
+            }
                             </code></pre></div>
                     </div>
                 </div>
@@ -148,7 +148,7 @@
             <ul class="bottom__list">
                 <li class="bottom_link">10/2022</li>
                 <li class="bottom_link">
-                    <a href="https://github.com/viicing" class="bottom__links_github">GitHub</a></li>
+                    <a class="bottom__links_github" href="https://github.com/viicing">My GitHub</a></li>
                 <li class="bottom_link">
                     <a href="https://rs.school/js/" target="_blank">
                     <img class="bottom__links_rsschool" src="assets/rs-logo.svg" alt="rsschool logo">

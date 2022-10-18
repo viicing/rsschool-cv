@@ -32,6 +32,12 @@ body {
     gap: 40px;
 }
 
+.header__link:hover {
+    background: linear-gradient(214.02deg, #984D38 6.04%, #671AE4 92.95%);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
 .header__link {
     color: #fff;
     text-decoration: none;
@@ -117,6 +123,11 @@ body {
 }
 
 /* Bottom */
+.bottom__nav {
+    max-width: 1197px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
 .bottom__links {
     display: flex;

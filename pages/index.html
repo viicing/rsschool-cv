@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="/pages/normalize.min.css">
+    <link rel="stylesheet" href="/pages/style.css">
+    <title>Victoria Antipova - CV</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="header__logo"></a>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a class="header__link header__link_gradient" href="#contacts">Contact Me</a></li>
+                <li class="header__item"><a class="header__link" href="#about">About</a></li>
+                <li class="header__item"><a class="header__link" href="#skills">Skills</a></li>
+                <li class="header__item"><a class="header__link" href="#education">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <div class="intro__text">
+            <h1>Victoria Antipova</h1>
+            <h2>Junior Frontend Developer</h2>
+        </div>
+
+        <div class="intro__image">
+            <img class="intro__photo" src="/assets/pic.jpg" alt="Photo">
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="main">
+                <div class="main__left">
+                    <div class="main__left_item">
+                        <h3 class="main__title" id="contacts">Contact Information</h3>
+                        <p class="main__desc">
+                            <ul>
+                                <li>+79911474788</li>
+                                <li>Email: victoria.rainhard@gmail.com</li>
+                                <li>Telegram: @viicing</li>
+                            </ul>
+                        </p>
+                    </div>
+
+                    <div class="main__left_item" id="skills">
+                        <h3 class="main__title">Skills and Proficiency:</h3>
+                        <p class="main__desc">
+                            <ul>
+                                <li>HTML5, CSS3</li>
+                                <li>JavaScript Basics</li>
+                                <li>Git, GitHub</li>
+                                <li>VS Code</li>
+                            </ul>
+                        </p>
+                    </div>
+
+                    <div class="main__left_item">
+                        <h3 class="main__title">Languages:</h3>     
+                        <p class="main__desc">
+                            <ul>
+                                <li>English - Advanced</li>
+                                <li>Russian - Native</li>
+                                <li>German - Beginner</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="main__right">
+                    <div class="main__right_item" id="about">
+                        <h3 class="main__title">About Me:</h3>
+                        <p class="main__desc">Previosly studied Software Engeneering at University, now I'm working as QA engineer. Would like to keep self-develoment as a frontend developer.</p>
+                    </div>
+
+                    <div class="main__right_item" id="education">
+                        <h3 class="main__title">Education:</h3>
+                        <p class="main__desc">Chelyabinsk State University</p>
+                        <p class="main__desc">Unfinished higher education, Software engineering</p>
+                    </div>
+
+                    <div class="main__right_item">
+                        <h3 class="main__title">Courses</h3>
+                        <p class="main__desc">
+                            <ul>
+                                <li>RS Schools Course «JavaScript/Front-end. Stage 0»</li>
+                                <li>RS Schools Course «JavaScript/Front-end Eng. Stage 1» (in progress)</li>
+                            </ul>
+                        </p>
+                    </div>
+
+                    <div class="main__right_item">
+                        <h3 class="main__title">Projects:</h3>
+                        <p class="main__desc">
+                            <ul>
+                                <li>CV markdown - https://viicing.github.io/rsschool-cv/cv</li>
+                                <li>Mini java project - https://github.com/viicing/demons</li>
+                                <li>HTML - https://github.com/viicing/html</li>
+                            </ul>
+                        </p>
+                    </div>
+
+                    <div class="main__right_item">
+                        <h3 class="main__title">Work experience:</h3>
+                        <p class="main__desc">
+                            <ul>
+                                <li>QA Engineer at "SubSchool" - Feb 2021 - Present</li>
+                                <li>Social Media Designer and translator - Oct 2020 - Feb 2021</li>
+                                <li>QA Manager - "Direct Star" - May 2018 - Oct 2020</li>
+                                <li>Customer Service Specialist - Euroset-Retail LLC - Dec 2017 - Mar 2018</li>
+                            </ul>
+                        </p>
+                    </div>
+
+                    <div class="main__right_item">
+                        <h3 class="main__title">Code example:</h3>
+                        <p class="main__desc">
+                            <pre><code class="main__code">
+                                const name = prompt('What's your name?')
+                                document.querySelector('h3').textContent = 'Hi, ' + name
+                                document.querySelector('h1').textContent = 'Now it's ' + new Date().toLocaleTimeString()
+                                setInterval(function() {
+                                    document.querySelector('h1').textContent = 'Now it's ' + new Date().toLocaleTimeString()
+                                }, 1000)
+                                const colors = ['indigo', 'green', 'darkred', 'coral', 'orange']
+                                let index = 0
+                                document.querySelector('button').onclick = function() {
+                                    document.body.style.background = colors[index]
+                                    index++
+                                    if (index >= colors.length) index = 0
+                                }
+                            </code></pre>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!--ссылка на гитхаб, год создания приложения, логотип курса со ссылкой на курс-->
+        <div class="bottom__nav">
+            <ul class="bottom__list">
+                <li class="bottom_link">2022</li>
+                <li class="bottom_link">
+                    <a href="https://github.com/viicing" class="bottom__links_github">GitHub</a></li>
+                <li class="bottom_link">
+                    <a href="https://rs.school/js/" target="_blank">
+                    <img class="bottom__links_rsschool" src="/assets/rs-logo.svg" alt="rsschool logo">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

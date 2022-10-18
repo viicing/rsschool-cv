@@ -80,6 +80,11 @@ body {
     text-align: center;
 }
 
+.intro__heading:hover {
+    color: aquamarine;
+    text-shadow: #1d1d1d 3px 5px 10px;
+}
+
 .container {
     max-width: 1197px;
     margin: 0 auto;
@@ -97,8 +102,30 @@ body {
     line-height: 1.2;
 }
 
+h3:hover {
+    color: orange;
+    text-shadow: #1d1d1d 1px 1px 3px;
+}
+
+h1 {
+    color: #671AE4;
+    text-shadow: #1d1d1d 10px 10px 10px;
+}
+
+.main__about {
+    color:aquamarine;
+}
+
 .main__desc {
     color: rgba(255, 255, 255, 0.7);
+}
+
+li:hover{
+    color: #088BC3;
+}
+
+code:hover {
+    color:darkslateblue;
 }
 
 .main__right_item {

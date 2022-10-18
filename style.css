@@ -13,8 +13,12 @@ img {
     height: 200px;
     width: 200px;
     margin: 7px;
-    float: left;
+    float: left; 
 }
+ 
+
+
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -37,7 +41,7 @@ img {
   }
 header {
     background-color: #5B95AA;
-    color: #095473);
+    color: #095473;
 }
 main {
     background-color: #349B90;

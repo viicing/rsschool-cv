@@ -1,1 +1,1 @@
-https://V11ctoria.github.io/rsschool-cv/
+https://viicing.github.io/rsschool-cv/

@@ -20,7 +20,7 @@ body {
 
 .header__logo {
     display: block;
-    background-image: url('/assets/frontendlogo.svg');
+    background-image: url('assets/frontendlogo.svg');
     background-repeat: no-repeat;
     width: 200px;
     height: 45px;

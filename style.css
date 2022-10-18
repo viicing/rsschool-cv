@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
   }
 img {
     height: 200px;
@@ -16,7 +17,10 @@ img {
     float: left; 
 }
  
-
+hr {
+   color: goldenrod;
+   width: 97%;
+}
 
 
 .container {
@@ -61,4 +65,9 @@ footer {
 .links-list {
     display: flex;
     flex-direction: row-reverse;
+}
+
+.rsschool {
+  width: 5em;
+  height: 2em;
 }

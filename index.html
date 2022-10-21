@@ -25,8 +25,8 @@
     <main>
     <section class="intro">
         <div class="intro__text">
-            <h1 class="intro__heading">Victoria Antipova</h1>
-            <h2 class="intro__heading">Junior Frontend Developer</h2>
+            <h1 class="intro__heading intro__heading_main">Victoria Antipova</h1>
+            <h2 class="intro__heading intro__heading_sub">Junior Frontend Developer</h2>
         </div>
 
         <div class="intro__image">
@@ -36,7 +36,7 @@
 
     <section>
         <div class="container">
-            <h2 class="intro__heading">My Information</h2>
+            <h2 class="intro__heading intro__heading_sub">My Information</h2>
             <div class="main">
                 <div class="main__left">
                     <div class="main__left_item">
@@ -54,8 +54,8 @@
                         <div class="main__desc">
                             <ul>
                                 <li>HTML/CSS</li>
-                                <li>JavaScript</li>
                                 <li>Pug/Sass</li>
+                                <li>JavaScript</li>
                                 <li>React</li>
                             </ul></div>
                     </div>
@@ -74,7 +74,9 @@
                 <div class="main__right">
                     <div class="main__right_item" id="about">
                         <h3 class="main__title">About Me</h3>
-                        <p class="main__about">Previosly studied Software Engeneering at University, now I'm working as QA engineer. Would like to keep self-develoment as a frontend developer.</p>
+                        <p class="main__about">
+                            Previosly studied Software Engeneering at University.<br> Now I'm working as QA engineer and learning JavaScript. <br> Would like to keep self-develoment as a frontend developer.
+                        </p>
                     </div>
 
                     <div class="main__right_item" id="education">
@@ -93,6 +95,7 @@
                             <ul>
                                 <li>RS Schools Course «JavaScript/Front-end. Stage 0»</li>
                                 <li>RS Schools Course «JavaScript/Front-end Eng. Stage 1» (in progress)</li>
+                                <li>HTML Academy - JavaScript Course</li>
                             </ul></div>
                     </div>
 
@@ -120,14 +123,12 @@
                     <div class="main__right_item">
                         <h3 class="main__title">Code</h3>
                         <div class="main__desc">
-                            <pre><code class="main__code">
-        const name = prompt('What's your name?')
-        document.querySelector('h3').textContent = 'Hi, ' + name
-        document.querySelector('h1').textContent = 'Hire me at ' + new Date().toLocaleTimeString()
-        setInterval(function() {
-            document.querySelector('h1').textContent = 'Hire me at ' + new Date().toLocaleTimeString()
-            }, 1000)
-                            </code></pre></div>
+                            <pre><code class="main__code">const name = prompt('What's your name?')
+document.querySelector('h3').textContent = 'Hi, ' + name
+document.querySelector('h1').textContent = 'Hire me at ' + new Date().toLocaleTimeString()
+setInterval(function() {
+    document.querySelector('h1').textContent = 'Hire me at ' + new Date().toLocaleTimeString()
+    }, 1000)</code></pre></div>
                     </div>
                 </div>
             </div>

@@ -54,7 +54,7 @@ body {
     white-space: nowrap;
 }
 
-/* Main part */
+/* Main part Intro */
 
 .intro {
     max-width: 1197px;
@@ -93,9 +93,27 @@ body {
 }
 
 .intro__heading:hover {
-    color: aquamarine;
-    text-shadow: #1d1d1d 3px 5px 10px;
+    /* color: #d26344; */
+    text-shadow: #1d1d1d 10px 13px 10px;
+    background: -webkit-linear-gradient(214.02deg, #d26344 20%, #fcc84e 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+.intro__heading_main {
+    color: #671AE4;
+    text-shadow: #1d1d1d 10px 10px 10px;
+}
+
+.intro__heading_sub {
+    background: -webkit-linear-gradient(214.02deg, #d26344 6.04%, #741eff 92.95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 330px;
+    box-sizing: border-box;
+}
+
+
+/* Main */
 
 .container {
     max-width: 1197px;
@@ -114,22 +132,19 @@ body {
     line-height: 1.2;
 }
 
-h3:hover {
-    color: orange;
-    text-shadow: #1d1d1d 1px 1px 3px;
-}
 
-h1 {
-    color: #671AE4;
-    text-shadow: #1d1d1d 10px 10px 10px;
+.main__title:hover {
+    color: orange;
+    text-shadow: #1d1d1d 0px 1px 5px;
+    opacity: 100%;
 }
 
 .main__about {
-    color:aquamarine;
+    color:#d26344;
 }
 
 .main__desc {
-    color: rgba(255, 255, 255, 0.7);
+    opacity: 70%;
 }
 
 li:hover{
@@ -191,18 +206,22 @@ code:hover {
 
 .bottom__links_rsschool:hover {
     box-shadow: 0 0 3px #671AE4;
-    margin: 0 25px;
+    margin: 0 20px;
     background-color: #141a37;
 }
 
 .bottom__links_github {
     color: #fff;
     text-decoration: none;
+    background: linear-gradient(214.02deg, #984D38 6.04%, #671AE4 92.95%);
+    border-radius: 10px;
+    padding: 10px 15px;
 }
 
 .bottom__links_github:hover {
     background: linear-gradient(214.02deg, #984D38 6.04%, #671AE4 92.95%);
     border-radius: 10px;
     text-transform: uppercase;
-    padding: 10px 25px;
+    box-shadow: 0 1px 5px #671AE4;
+    font-size: 110%;
 }

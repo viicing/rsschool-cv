@@ -1,103 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Victoria Antipova - Junior Frontend Developer</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/favicon.ico">
-    </head>
-    <body>
-        <header>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                    </ul>
-            </nav>
-        </header>
-
-        <main>
-            <img height="300px" width="300px" src="assets\6QA0LBRYvPB-Hv8YteBBZpQOD4u5IhWIY1cRm3qF9ZjvUwYy66EY1hStrBnnXpX6nsjZxklcFKsFxdUg43T584kZ.jpg" alt="my photo" class="round">
-            <h1>Victoria Antipova</h1>
-
-            <h2>Junior Frontend Developer</h2> 
-            <hr color="goldenrod" align="center" width="90%">
-            <h3>Contact Information </h3> 
-            <ul>
-                <li>+79911474788</li>
-                <li>Email: victoria.rainhard@gmail.com</li>
-                <li>Telegram: @viicing</li>
-                </ul>
-            <hr color="goldenrod" align="center" width="97%">
-            <h3>About Myself:</h3> 
-            <p>Previosly studied Software Engeneering at University, now I'm working as QA engineer. Would like to keep self-develoment as a frontend developer.</p>
- 
-            <h3>Skills and Proficiency:</h3>
-            <ul>
-                <li>HTML5, CSS3</li>
-                <li>JavaScript Basics</li>
-                <li>Git, GitHub</li>
-                <li>VS Code</li>
+    <link rel="stylesheet" href="normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Victoria Antipova - CV</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="header__logo"></a>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a class="header__link header__link_gradient" href="#contacts">Contact Me</a></li>
+                <li class="header__item"><a class="header__link" href="#about">About</a></li>
+                <li class="header__item"><a class="header__link" href="#skills">Skills</a></li>
+                <li class="header__item"><a class="header__link" href="#education">Education</a></li>
             </ul>
-            <h3>Code example:</h3>
-            <pre><code class="code-example">
-        const name = prompt('What's your name?')
-        document.querySelector('h3').textContent = 'Hi, ' + name
-        document.querySelector('h1').textContent = 'Now it's ' + new Date().toLocaleTimeString()
-        setInterval(function() {
-            document.querySelector('h1').textContent = 'Now it's ' + new Date().toLocaleTimeString()
-        }, 1000)
-        const colors = ['indigo', 'green', 'darkred', 'coral', 'orange']
-        let index = 0
-        document.querySelector('button').onclick = function() {
-            document.body.style.background = colors[index]
-            index++
-            if (index >= colors.length) index = 0
-        }
-            </code></pre>
-            <h3>Work experience:</h3>
-            <ul>
-                <li>QA Engineer at "SubSchool" - Feb 2021 - Present</li>
-                <li>Social Media Designer and translator - Oct 2020 - Feb 2021</li>
-                <li>QA Manager - "Direct Star" - May 2018 - Oct 2020</li>
-                <li>Customer Service Specialist - Euroset-Retail LLC - Dec 2017 - Mar 2018</li>
-                </ul>
-            <h3>Projects:</h3>
-            <ul>
-                <li>CV на markdown - https://v11ctoria.github.io/rsschool-cv/cv</li>
-                <li>Mini java project - https://github.com/V11ctoria/demons</li>
-                <li>HTML - https://github.com/V11ctoria/html</li>
-                </ul>
-            <h3>Education:</h3>
-            <ul>
-                <li>Chelyabinsk State University</li>
-                Unfinished higher education, Software engineering
-                </ul>
-            <h3>Courses</h3>
-            <ul>
-                <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
-                </ul>
-            <h3>Languages:</h3>
-            <ul>
-                <li>English - Advanced</li>
-                <li>Russian - Native</li>
-                <li>German - Beginner</li>
-                </ul>
+        </nav>
+    </header>
 
+    <main>
+    <section class="intro">
+        <div class="intro__text">
+            <h1 class="intro__heading intro__heading_main">Victoria Antipova</h1>
+            <h2 class="intro__heading intro__heading_sub">Junior Frontend Developer</h2>
+        </div>
+
+        <div class="intro__image">
+            <img class="intro__photo" src="assets/pic.jpg" alt="Photo">
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2 class="intro__heading intro__heading_sub">My Information</h2>
+            <div class="main">
+                <div class="main__left">
+                    <div class="main__left_item">
+                        <h3 class="main__title" id="contacts">Contact Information</h3>
+                        <div class="main__desc">
+                            <ul>
+                                <li>+79911474788</li>
+                                <li>Email: victoria.rainhard@gmail.com</li>
+                                <li>Telegram: @viicing</li>
+                            </ul></div>
+                    </div>
+
+                    <div class="main__left_item" id="skills">
+                        <h3 class="main__title">Skills and Proficiency</h3>
+                        <div class="main__desc">
+                            <ul>
+                                <li>HTML/CSS</li>
+                                <li>Pug/Sass</li>
+                                <li>JavaScript</li>
+                                <li>React</li>
+                            </ul></div>
+                    </div>
+
+                    <div class="main__left_item">
+                        <h3 class="main__title">Languages</h3>     
+                        <div class="main__desc">
+                            <ul>
+                                <li>English - Advanced</li>
+                                <li>Russian - Native</li>
+                                <li>German - Beginner</li>
+                            </ul></div>
+                    </div>
+                </div>
+
+                <div class="main__right">
+                    <div class="main__right_item" id="about">
+                        <h3 class="main__title">About Me</h3>
+                        <p class="main__about">
+                            Previosly studied Software Engeneering at University.<br> Now I'm working as QA engineer and learning JavaScript. <br> Would like to keep self-develoment as a frontend developer.
+                        </p>
+                    </div>
+
+                    <div class="main__right_item" id="education">
+                        <h3 class="main__title">Education:</h3>
+                        <div class="main__desc">
+                            <ul>
+                                <li>Chelyabinsk State University 
+                                    <br> Unfinished higher education, Software engineering</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="main__right_item">
+                        <h3 class="main__title">Courses</h3>
+                        <div class="main__desc">
+                            <ul>
+                                <li>RS Schools Course «JavaScript/Front-end. Stage 0»</li>
+                                <li>RS Schools Course «JavaScript/Front-end Eng. Stage 1» (in progress)</li>
+                                <li>HTML Academy - JavaScript Course</li>
+                            </ul></div>
+                    </div>
+
+                    <div class="main__right_item">
+                        <h3 class="main__title">Projects</h3>
+                        <div class="main__desc">
+                            <ul>
+                                <li>CV markdown - https://viicing.github.io/rsschool-cv/cv</li>
+                                <li>Mini java project - https://github.com/viicing/demons</li>
+                                <li>HTML - https://github.com/viicing/html</li>
+                            </ul></div>
+                    </div>
+
+                    <div class="main__right_item">
+                        <h3 class="main__title">Work experience</h3>
+                        <div class="main__desc">
+                            <ul>
+                                <li>QA Engineer at "SubSchool" - Feb 2021 - Present</li>
+                                <li>Social Media Designer and translator - Oct 2020 - Feb 2021</li>
+                                <li>QA Manager - "Direct Star" - May 2018 - Oct 2020</li>
+                                <li>Customer Service Specialist - Euroset-Retail LLC - Dec 2017 - Mar 2018</li>
+                            </ul></div>
+                    </div>
+
+                    <div class="main__right_item">
+                        <h3 class="main__title">Code</h3>
+                        <div class="main__desc">
+                            <pre><code class="main__code">const name = prompt('What's your name?')
+document.querySelector('h3').textContent = 'Hi, ' + name
+document.querySelector('h1').textContent = 'Hire me at ' + new Date().toLocaleTimeString()
+setInterval(function() {
+    document.querySelector('h1').textContent = 'Hire me at ' + new Date().toLocaleTimeString()
+    }, 1000)</code></pre></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     </main>
 
-    <footer class="links-list">
+    <footer>
         <!--ссылка на гитхаб, год создания приложения, логотип курса со ссылкой на курс-->
-        <div>
-            <ul>
-            <li><em>2022</em></li>
-            <li><a href="https://github.com/V11ctoria" class="links-github">GitHub</a></li>
-            <li><a href="https://rs.school/js/" class="contact-links-rsschool" target="_blank">
-                <img src="/assets/rs-logo.svg" alt="rsschool logo" class="rsschool" width="80" height="29" viewBox="0 0 80 29" fill="none">
-              </a></li>
+        <div class="bottom__nav">
+            <ul class="bottom__list">
+                <li class="bottom_link">10/2022</li>
+                <li class="bottom_link">
+                    <a class="bottom__links_github" href="https://github.com/viicing">My GitHub</a></li>
+                <li class="bottom_link">
+                    <a href="https://rs.school/js/" target="_blank">
+                    <img class="bottom__links_rsschool" src="assets/rs-logo.svg" alt="rsschool logo">
+                    </a>
+                </li>
             </ul>
         </div>
     </footer>
